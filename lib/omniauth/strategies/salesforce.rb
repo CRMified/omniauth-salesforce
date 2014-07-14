@@ -4,7 +4,7 @@ require 'base64'
 
 module OmniAuth
   module Strategies
-    class Salesforcemimi < OmniAuth::Strategies::OAuth2
+    class Salesforcesandbox < OmniAuth::Strategies::OAuth2
 
       MOBILE_USER_AGENTS =  'webos|ipod|iphone|ipad|android|blackberry|mobile'
 
